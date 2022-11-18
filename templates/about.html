@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Acerca del autor</h1>
+            <span class="subheading">Éste soy yo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>&emsp; Me llamo Gonzalo. Nací en Segovia en 1983; crecí en Cuéllar, un pueblo cercano, y al cumplir los 18 me fui (supuestamente) a estudiar a Valladolid; primero me matriculé en arquitectura y después en matemáticas, aunque nunca acabé una carrera. He pasado la mayor parte de mi vida en España.</p>
+        <p> He trabajado de muchas cosas, todas poco satisfactorias. En 2016 vine a California para compartir el resto de mi vida con mi ahora mujer (aunque no necesariamente aquí). Llevo algún tiempo ganándome la vida como técnico informático y aprendiendo Python e inteligencia artificial en mi tiempo libre.</p>
+        <p> Me interesa un poco todo: la tecnología, la historia, las ciencias, las artes, la filosofía... en la inteligencia artificial de algún modo se cruzan todas ellas, de ahí la fascinación. Es como un espejo, además de una herramienta.</p>
+        <p> Aquí encontrarás reflexiones variopintas; si leyendo algo te surgen aportes, objeciones, sugerencias, etc. que quieras compartir, no lo dudes; regístrate y deja tu comentario.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
